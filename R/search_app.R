@@ -1,3 +1,13 @@
+#' Search app
+#'
+#' Return the list obtaining for searching the text giving as parameter
+#'
+#' @param term - word(s) to search apps about
+#' @param country - market where the user desired to search the app
+#' @param platform - any, iPhone, iPad or iMac
+#'
+#' @return tibble with the apps found for the search
+#'
 #' @export
 search_app <- function(term, country = "es", platform = "software") {
 
