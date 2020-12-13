@@ -13,5 +13,6 @@ Imports:
     jsonlite,
     tibble,
     httr,
-    stringr
+    stringr,
+    processx
 RoxygenNote: 7.1.1
