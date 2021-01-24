@@ -38,50 +38,50 @@ tibble containing the information of the apps retrieved in the search
 \item description
 \item descriptionHTML
 \item summary
-\item installs
+\item \code{installs} - Number of times installed
 \item minInstalls
 \item maxInstalls
-\item score
-\item scoreText
-\item ratings
-\item reviews
-\item histogram
-\item price
-\item free
-\item currency
-\item priceText
-\item offersIAP
-\item IAPRange
-\item size
-\item androidVersion
-\item androidVersionText
-\item developer
-\item developerId
-\item developerEmail
-\item developerWebsite
-\item developerAddress
-\item privacyPolicy
-\item developerInternalID
-\item genre
-\item genreId
-\item familyGenre
-\item familyGenreId
-\item icon
-\item headerImage
-\item screenshots
-\item video
-\item videoImage
-\item contentRating
-\item contentRatingDescription
-\item adSupported
-\item released
+\item \code{score}
+\item \code{scoreText}
+\item \code{ratings} - Number of rating used to compute the score
+\item \code{reviews} - Number of reviews
+\item \code{histogram}
+\item \code{price} - Price of the app
+\item \code{free} - Boolean value
+\item \code{currency} - Currency of the price in the corresponding market
+\item \code{priceText} - "Free" if price = 0
+\item \code{offersIAP} - Boolean
+\item \code{IAPRange} - If offersIAP is FALSE, this is NA
+\item \code{size} - "Varies with device"
+\item \code{androidVersion} - "VARY"
+\item \code{androidVersionText} - "Varies with device"
+\item \code{developer} - Developer's name
+\item \code{developerId} - Developer's username
+\item \code{developerEmail} - Developer's email
+\item \code{developerWebsite} - Developer's webiste
+\item \code{developerAddress} - Developer's physical address
+\item \code{privacyPolicy} - Terms of privacy
+\item \code{developerInternalID} - Number
+\item \code{genre} - "Music & Audio"
+\item \code{genreId} - "MUSIC_AND_AUDIO"
+\item familyGenre NULL
+\item familyGenreId NULL
+\item \code{icon} - URL to the icon of the app
+\item \code{headerImage} - URL to the header image of the app shown in Google Play
+\item \code{screenshots} - URL to the screenshot shown in the descriptions
+\item video NULL
+\item videoImage NULL
+\item \code{contentRating} - Teen
+\item \code{contentRatingDescription} - NA
+\item \code{adSupported} - Boolean FALSE
+\item \code{released}
 \item updated
-\item version
-\item recentChanges
-\item comments
-\item editorsChoice
-\item appId
-\item url
+\item version Varies with device
+\item recentChanges text description with changes
+\item \code{comments} - List with the comments left by the users
+\item \code{editorsChoice} - Boolean
+\item \code{appId} - id of the app in the form of com._....
+\item \code{url} - URL used to get the information
 }
 }
 \description{

@@ -14,5 +14,7 @@ Imports:
     tibble,
     httr,
     stringr,
-    processx
+    processx,
+    yesno,
+    attempt
 RoxygenNote: 7.1.1

@@ -116,7 +116,7 @@ search_app_google <- function(term,
       "search.js",
       input = c(term, "20", lang, country, "FALSE", price)
     ),
-    wd = "inst/node"
+    wd = system.file("node", package = "appscraper")
   )
   res <- jsonlite::fromJSON(res$stdout)
   res <- tibble::as_tibble(res)
