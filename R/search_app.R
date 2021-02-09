@@ -114,7 +114,7 @@ search_app_google <- function(term,
     command = "node",
     args = c(
       "search.js",
-      input = c(term, "20", lang, country, "FALSE", price)
+      input = c(term, num, lang, country, "FALSE", price)
     ),
     wd = system.file("node", package = "appscraper")
   )
